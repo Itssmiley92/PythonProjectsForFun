@@ -8,6 +8,9 @@ while (cynInvited == "no"):
  if(cynKillCount == "no"):
   print("N-n0 pe0ple a-awwwww")
   break
+ elif(cynKillCount == "yes"):
+  print("Wait Cyn confuzled")
+  break
  cynConfirmation = input()
  if(cynConfirmation == "yes"):
   print("EV-V-VERY0N-N-NE D-D-DIES N0-0-W 🔪🩸")
