@@ -1,4 +1,7 @@
 # Is Cyn Invited to the Gala
+from time import sleep
+
+
 print("Am i inv-v-vited t0 the g-g-gala?")
 cynInvited = input()
 while (cynInvited == "no"):
@@ -10,6 +13,10 @@ while (cynInvited == "no"):
   break
  elif(cynKillCount == "yes"):
   print("Wait Cyn confuzled")
+  sleep(1)
+  print("Cyn.exe loading...")
+  sleep(5)
+  print("Cyn.exe crashed from too much thinking 💀")
   break
  cynConfirmation = input()
  if(cynConfirmation == "yes"):
