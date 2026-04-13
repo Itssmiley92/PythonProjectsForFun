@@ -1,14 +1,15 @@
 # Is Cyn Invited to the Gala
-from time import sleep
-
+from itertools import count
+import os
+from time import *
 
 print("Am i inv-v-vited t0 the g-g-gala?")
 cynInvited = input()
-while (cynInvited == "no"):
- print("H0-w-w many pe0pl-e-e are here?")
+while (cynInvited == "no" or cynInvited == "nein"):
+ print("0k w-well h0-w-w many pe0pl-e-e are here?")
  cynKillCount = input()
  print(f"S-s0 there-e ar-e {cynKillCount} pe0ple he-ere?")
- if(cynKillCount == "no"):
+ if(cynKillCount == "no" or cynKillCount == "0"):
   print("N-n0 pe0ple a-awwwww")
   break
  elif(cynKillCount == "yes"):
@@ -21,8 +22,16 @@ while (cynInvited == "no"):
  cynConfirmation = input()
  if(cynConfirmation == "yes"):
   print("EV-V-VERY0N-N-NE D-D-DIES N0-0-W 🔪🩸")
+  sleep(1)
+  count = 0
+  while count < 20:
+   os.system("start cmd /k echo YOU'RE DEAD")
+   count += 1
+  break
  elif(cynConfirmation == "no"):
   print("H-ey thats me-ean y0-u m-made m-me sad 😭")
- break
+  sleep(1)
+  print("Y0u-u DIE n-n0w")
+  break
 if(cynInvited == "yes"):
  print("Cyn happy 😊")
