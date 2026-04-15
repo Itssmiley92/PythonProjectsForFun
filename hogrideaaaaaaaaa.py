@@ -38,7 +38,7 @@ if(talkOption == "1"):
         sleep(1)
         print("Game Complete! Good job! Achievement: Avoidance")
     elif(prinOffice == "2"):
-        print("You sit down at the principas computer.")
+        print("You sit down at the principals computer.")
         sleep(1)
         print("You turn the computer on.")
         sleep(1)
@@ -81,7 +81,7 @@ elif(talkOption == "2"):
     sleep(1)
     print("You tell him that you forgot about the homework and that Mrs. McNicol sent you to his office.")
     sleep(1)
-    print("Principal: You have got to be kidding me Rhys, you forgot about the homework? Do you even pay attention in class? Go back to class already we can have you missing anymore work.")
+    print("Principal: You have got to be kidding me Rhys, you forgot about the homework? Do you even pay attention in class? Go back to class already we cant have you missing anymore work.")
     sleep(1)
     print("You go back to class and wait for the rest of the class to finish and then you go home.")
     sleep(1)
