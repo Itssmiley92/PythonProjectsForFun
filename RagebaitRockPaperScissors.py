@@ -1,5 +1,6 @@
 #RagebaitRockPaperScissors
 from time import sleep
+
 print("Rock Paper Scissors")
 gameStart = input("Do you want to play? (y/n) ")
 while(gameStart != "y"):
