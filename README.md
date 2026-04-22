@@ -4,3 +4,4 @@ Projects:<br>
 IsCynInvitedToTheGala.py
 PcSpecs.py
 QuestionsAboutYourself.py
+RagebaitRockPaperScissors.py
