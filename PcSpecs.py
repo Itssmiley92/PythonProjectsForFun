@@ -5,7 +5,7 @@ print("What brand of computer do you have?")
 comBrand = input()
 print(f"So the brand of the computer is {comBrand}?")
 comBrandConf = input()
-while(comBrandConf == "no" or comBrandConf == "nein"):
+while(comBrandConf != "yes"):
  print("What brand of computer do you have?")
  comBrand = input()
  print(f"So the brand of the computer is {comBrand}?")
