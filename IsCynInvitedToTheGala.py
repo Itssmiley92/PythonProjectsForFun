@@ -1,5 +1,4 @@
 # Is Cyn Invited to the Gala
-from itertools import count
 import os
 from time import *
 
